@@ -7,6 +7,7 @@
 //
 
 #import "WYViewController.h"
+#import "WY_WaterFallFlowLayout.h"
 
 @interface WYViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    WY_WaterFallFlowLayout *layout = [[WY_WaterFallFlowLayout alloc]init];
+    NSLog(@"%@", layout);
 }
 
 - (void)didReceiveMemoryWarning
